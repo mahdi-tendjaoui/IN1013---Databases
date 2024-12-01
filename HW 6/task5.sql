@@ -1,6 +1,3 @@
-USE restaurant;
-
-
 -- 1
 SELECT W1.first_name, W1.surname FROM restStaff W1 INNER JOIN restBill R1 ON W1.staff_no = R1.waiter_no WHERE cust_name = "Tanya Singh";
 -- 2
